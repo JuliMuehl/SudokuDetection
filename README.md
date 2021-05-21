@@ -19,3 +19,4 @@ In case you want to solve sudokus with a different font you will probably need t
 * Identify and refine the grid cells of the sudoku (using contour information)
 * Classify the digits inside the cells using multiple Logistic Regression classifiers  
 * Render the results into the original image using the homography matrix
+
