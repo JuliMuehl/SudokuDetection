@@ -1,5 +1,5 @@
 # SudokuDetection
-A java program that detects sudokus from images and solves them without using OpenCV or any other external libraries. <br>
+A java program that detects sudokus from images and solves them.The program doesn't require OpenCV or any other external libraries. <br>
 
 # Input / Output:
 <img src="https://i.postimg.cc/cLjz4QHq/sudoku4.jpg">
