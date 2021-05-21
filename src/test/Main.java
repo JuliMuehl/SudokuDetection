@@ -27,7 +27,7 @@ import solver.SudokuSolver;
 public class Main {
 	public static void main(String[] args) {
 		BufferedImage image = null;
-		final String IMAGE_PATH = "sudokus/sudoku5.jpg";
+		final String IMAGE_PATH = args[0];
 
 		try {
 			image = ImageIO.read(new File(IMAGE_PATH));
