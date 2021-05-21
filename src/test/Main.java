@@ -87,7 +87,7 @@ public class Main {
 		}
 			
 		
-		class MyPanel extends JPanel{
+		class DisplayPanel extends JPanel{
 			private static final long serialVersionUID = 2919707588530978770L;
 			BufferedImage image;
 			void setData(int[][] binary,int[][] contour) {
@@ -138,7 +138,7 @@ public class Main {
 			}
 		}
 		JFrame frame = new JFrame();
-		MyPanel panel = new MyPanel();
+		DisplayPanel panel = new DisplayPanel();
 		panel.setData(GridFinder.transform(500, 500, H, binary1),GridFinder.transform(500, 500, H, contour));	
 		panel.setSize(image.getWidth() + 100,image.getHeight() + 100);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
