@@ -5,8 +5,6 @@ A java program that detects sudokus from images and solves them.The program does
 <img src="https://i.postimg.cc/cLjz4QHq/sudoku4.jpg">
 <img src="https://i.postimg.cc/8C7VZpFG/Solved-Sudoku.png">
 
-
-
 # How it works:
 
 * Compute binary image using adaptive thresholding
@@ -20,9 +18,6 @@ A java program that detects sudokus from images and solves them.The program does
 
 # Usage
 
-The sudokus i used are all generated using this website: <a src="https://1sudoku.com/print-sudoku"> https://1sudoku.com/print-sudoku </a>. <br>
+The sudokus I used are all generated using this website: <a src="https://1sudoku.com/print-sudoku"> https://1sudoku.com/print-sudoku </a>. <br>
 If you want to solve sudokus with a different font you will probably need to retrain the classifier by changing the files in the sudoku/training<1/2> directories and adjusting the arrays in training.Training.java. You should also make sure that the images have a resolution of about 500 X 500 pixels otherwise the contour detection may take very long.
-
-
-
 
